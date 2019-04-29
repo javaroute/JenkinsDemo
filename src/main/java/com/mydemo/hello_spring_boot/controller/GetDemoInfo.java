@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/get")
 public class GetDemoInfo {
 	@RequestMapping("/getone")
-	public void get(){
+	public String get(){
 		System.out.println("11111111111");
+		return "SUCCESS";
 	}
 }
